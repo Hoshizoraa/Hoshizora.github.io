@@ -67,7 +67,7 @@ nav .navbar .menu li{
     transition: all 0.4s ease;
 }
 .navbar .menu a:hover{
-    color: #4070f4;
+    color: #fff;
 }
 nav.sticky .menu a{
     color: #FFF;
