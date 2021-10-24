@@ -254,7 +254,7 @@ section .button button{ /*download cv sebelum ditekan*/
 }
 section .button button:hover{ /*download cv setelah ditekan*/
     border-color: #19d7f8;
-    background-color: #fff;
+    background-color: transparent;
     color: #0E2431;
 }
 section .button .a a:link, a:visited{ /*warna button link*/
