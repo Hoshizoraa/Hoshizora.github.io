@@ -16,13 +16,13 @@
     background: #f1f1f1;
 }
 ::-webkit-scrollbar-thumb{ /*bagian dalam scroll*/
-    background: #19d7f8;
+    background: #A9A9A9;
     border-radius: 12px;
     transition: all 0.4s ease;
 }
 
 ::-webkit-scrollbar-thumb:hover{ /*saat scroll ditekan*/
-    background: #db1bf6;
+    background: #808080;
 }
 
 /* Header (bas atas) CSS */
