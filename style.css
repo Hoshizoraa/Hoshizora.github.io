@@ -69,7 +69,7 @@ nav .navbar .menu li{
     transition: all 0.4s ease;
 }
 .navbar .menu a:hover{
-    color: #19d7f8;
+    color: #708090;
 }
 nav.sticky .menu a{
     color: #FFFFFF;
@@ -99,7 +99,7 @@ nav .menu-btn,
     display: none;
 }
 nav .menu-btn{ /*pilihan button di hp*/
-    color: #0E2431;
+    color: #708090;
 }
 nav.sticky .menu-btn{
     color: #FFF;
@@ -205,7 +205,7 @@ section .title span::after{
     position: absolute;
     height: 3px;
     width: 100%;
-    background: linear-gradient(to right, #db1bf6, #19d7f8); /*garis judul section*/
+    background: linear-gradient(to right, #282828, #708090); /*garis judul section*/
     left: 0;
     bottom: 0;
 }
@@ -324,7 +324,7 @@ section .button button:hover{ /*download cv setelah ditekan*/
     height: 100%;
     left: 0;
     top: 0;
-    background: linear-gradient(to right, #19d7f8, #db1bf6);
+    background: linear-gradient(to right, #282828, #708090);
 }
 .skills-content .right .editingvideophoto::before{
     width: 75%;
@@ -362,13 +362,13 @@ section .button button:hover{ /*download cv setelah ditekan*/
     transition: all 0.4s ease;
 }
 .services .boxes .box:hover{
-    background: linear-gradient(to right, #19d7f8, #db1bf6);
+    background: linear-gradient(to bottom right, #282828, #708090);
     color: #fff;
 }
 .services .boxes .box .icon{
     height: 50px;
     width: 50px;
-    background: #19d7f8;
+    background: #708090;
     border-radius: 50%;
     text-align: center;
     line-height: 50px;
@@ -379,7 +379,7 @@ section .button button:hover{ /*download cv setelah ditekan*/
 }
 .boxes .box:hover .icon{
     background-color: #fff;
-    color: #4070f4;
+    color: #282828;
 }
 .services .boxes .box:hover .topic,
 .services .boxes .box:hover p{
@@ -394,9 +394,6 @@ section .button button:hover{ /*download cv setelah ditekan*/
 /*Achievements Section*/
 .achievements{
     background: #FFFFFF;
-}
-.achievements .content{
-    padding: 20px 0;
 }
 .achievements .boxes{
     display: flex;
@@ -413,6 +410,12 @@ section .button button:hover{ /*download cv setelah ditekan*/
     cursor: pointer;
     transition: all 0.4s ease;
 }
+.achievements .boxes.box img{
+    height: 200px;
+    width: 287px;
+    object-fit: contain;
+}
+
 /* Contact Me section */
 .contact{
     background: #FFFFFF;
@@ -510,8 +513,18 @@ footer .text span a:hover{
         margin: 20px 0;
         width: calc(100% / 2 - 20px);
     }
+    .achievements .boxes.box img{
+        height: 200px;
+        width: 287px;
+        object-fit: contain;
+    }
 }
 @media (max-width: 900px) {
+    .home{
+        background-position: 70%;
+        background-repeat: no-repeat;
+
+    }
     .about .left img{
         height: 350px;
         width: 350px;
@@ -574,6 +587,10 @@ footer .text span a:hover{
         width: 100%;
     }
     .services .boxes .box{
+        margin: 20px 0;
+        width: 100%;
+    }
+    .achievements .boxes .box{
         margin: 20px 0;
         width: 100%;
     }
