@@ -8,6 +8,7 @@
     scroll-behavior: smooth; /*scroll ke masing masing section*/
 }
 
+
 /* Custom Scroll Bar CSS */
 ::-webkit-scrollbar{
     width: 10px;
@@ -24,6 +25,7 @@
 ::-webkit-scrollbar-thumb:hover{ /*saat scroll ditekan*/
     background: #808080;
 }
+
 
 /* Header (bas atas) CSS */
 nav{
@@ -86,6 +88,7 @@ nav.sticky .media-icons a{
     color: #fff;
 }
 
+
 /* Tombol menu samping di hp */
 nav .menu-btn,
 .navbar .menu .cancel-btn{
@@ -107,6 +110,7 @@ nav.sticky .menu-btn{
 .navbar .menu .menu-btn{
     color: #fff;
 }
+
 
 /* home section CSS */
 .home{
@@ -172,6 +176,7 @@ nav.sticky .menu-btn{
     background-color: transparent;
     color: #708090;
 }
+
 
 /* About section CSS */
 section{
@@ -265,6 +270,7 @@ section .button button:hover{ /*download cv setelah ditekan*/
     color: #708090;
 }
 
+
  /* My Skills section CSS */
 .skills{
     background: #FFFFFF;
@@ -345,6 +351,7 @@ section .button button:hover{ /*download cv setelah ditekan*/
     width: 70%;
 }
 
+
 /* My Services section CSS */
 .services .boxes{
     display: flex;
@@ -391,6 +398,7 @@ section .button button:hover{ /*download cv setelah ditekan*/
     color: #fff;
 }
 
+
 /*Achievements Section*/
 .achievements{
     background: #FFFFFF;
@@ -408,13 +416,14 @@ section .button button:hover{ /*download cv setelah ditekan*/
     padding: 10px 10px;
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.12);
     cursor: pointer;
-    transition: all 0.4s ease;
 }
 .achievements .boxes.box img{
     height: 200px;
     width: 287px;
     object-fit: contain;
+    align-items: center;
 }
+
 
 /* Contact Me section */
 .contact{
@@ -454,6 +463,7 @@ section .button button:hover{ /*download cv setelah ditekan*/
     color: #708090;
 }
 
+
 /* Footer (bar bawah) CSS */
 footer{
     background: linear-gradient(to right, #282828, #708090);
@@ -473,6 +483,7 @@ footer .text span a{
 footer .text span a:hover{
     text-decoration: underline;
 }
+
 
 /* Tombol scroll ke atas CSS */
 .scroll-button a{
@@ -523,7 +534,6 @@ footer .text span a:hover{
     .home{
         background-position: 70%;
         background-repeat: no-repeat;
-
     }
     .about .left img{
         height: 350px;
@@ -593,6 +603,7 @@ footer .text span a:hover{
     .achievements .boxes .box{
         margin: 20px 0;
         width: 100%;
+        align-items: center;
     }
     .contact .text{
         width: 100%;
