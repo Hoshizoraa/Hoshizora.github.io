@@ -1,0 +1,46 @@
+<!DOCTYPE HTML>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+        <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+		<title>Joystick Omni</title>
+		<meta charset="utf-8">
+		<meta name="description" content="">
+		<meta name="author" content="">
+
+		<link rel="shortcut icon" type="image/png" href="http://bobboteck.github.io/img/roberto-damico-bobboteck.png">
+
+		<link href="style.css" rel="stylesheet">
+	</head>
+<body>
+	<!-- Example of FIXED or ABSOLUTE position -->
+	<div id="joy3Div" style="width:200px;height:200px;margin:50px;position:fixed;bottom:30px;left:500px;"></div>
+	<div style="position:fixed;bottom:125px;left:750px;">
+		Posizione X:<input id="joy3PosizioneX" type="text" /><br />
+		Posizione Y:<input id="joy3PosizioneY" type="text" /><br />
+		Direzione:<input id="joy3Direzione" type="text" /><br />
+		X :<input id="joy3X" type="text" /></br>
+		Y :<input id="joy3Y" type="text" />
+	</div>
+	<!-- Example of two JoyStick integrated in the page structure -->
+	<div class="row">
+		<div class="columnLateral">
+			<div id="joy1Div" style="width:200px;height:200px;margin:50px"></div>
+			Posizione X:<input id="joy1PosizioneX" type="text" /><br />
+			Posizione Y:<input id="joy1PosizioneY" type="text" /><br />
+			Direzione:<input id="joy1Direzione" type="text" /><br />
+			X :<input id="joy1X" type="text" /></br>
+			Y :<input id="joy1Y" type="text" />
+		</div>
+		<div class="columnCetral">
+			<h2>JoyStick</h2>
+			
+		</div>
+				
+	</div>
+
+	<script src="joy.js"></script>
+	<script src="main.js"></script>
+</body>
+</html>
